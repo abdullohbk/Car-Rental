@@ -1,0 +1,85 @@
+#car {
+    position: relative;
+    margin-bottom: 160px;
+  .car__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    &--left {
+      h1 {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 200px;
+      }
+
+      .car__description{
+        color: #555;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        width: 590px;
+        margin-bottom: 94px;
+      }
+      &--card--wrapper{
+        display: flex;
+        gap: 10px;
+
+
+        &-card{
+            width: 200px;
+            height: 160px;
+            border-radius: 16px;
+            background: #F5F5F5;
+            padding: 15px;
+            position: relative;
+
+            img{
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+
+            p{
+                color: #000;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; 
+                position: absolute;
+                bottom: 15px;
+
+            }
+        }
+
+        
+      }
+    }
+
+    &--right{
+
+
+        &-ellipse{
+            width: 300px;
+            height: 300px;
+            border-radius: 300px;
+            background: #299764;
+            position: absolute;
+            top: 19%;
+            right: 20%;
+        }
+        img{
+            position: absolute;
+            top: 23%;
+            right: 18%;
+        }
+        }
+    }
+  }
+

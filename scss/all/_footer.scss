@@ -1,0 +1,54 @@
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid grey;
+    padding-top: 40px;
+
+    &--left{
+        p{
+            color: #555;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px; 
+            width: 240px;
+            margin-top: 20px;
+            margin-bottom: 84px;
+        }
+
+    }
+
+    &--right{
+        display: flex;
+       gap: 110px;
+    
+        
+        ul{
+            li{
+                color: #555;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                list-style-type: none;
+                margin: 12px;
+
+                img{
+                    margin: 3px;
+                }
+            }
+        }
+    }
+
+    .border{
+        border-bottom: 2px solid grey;
+        margin-bottom: 40px;
+    }
+
+    .footer__img{
+        width: 70px;
+        height: 70px;
+    }
+}

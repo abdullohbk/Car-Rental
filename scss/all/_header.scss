@@ -1,0 +1,48 @@
+header {
+    width: 100%;
+
+    // example
+
+    .nav {
+        display: flex;
+        height: 70px;
+        align-items: center;
+        justify-content: space-between;
+
+        &__logo {
+            font-style: 24px;
+            cursor: pointer;
+        }
+
+        &__list {
+            display: flex;
+            gap: 20px;
+            list-style-type: none;
+            align-items: center;
+
+            &--item {
+                text-transform: uppercase;
+
+
+                &-btn{
+                   @extend %btn
+                }
+
+                &-link {
+                    text-decoration: none;
+                    &:hover{
+                        color:red;
+                    }
+                }
+
+                & > img{
+                    width: 58px;
+                    height: 58px;
+                    padding: 18px;
+                    border-radius: 100px;
+                    background: #F5F5F5;
+                }
+            }
+        }
+    }
+}

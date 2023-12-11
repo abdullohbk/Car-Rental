@@ -1,0 +1,68 @@
+#service{
+    h1{
+        color: #000;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 160px;
+    }
+    .service__description{
+        color: #555;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+        width: 684px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .service__wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+
+        &--card{
+            width: 590px;
+            height: 216px;
+            border-radius: 20px;
+            background: #F5F5F5;
+            padding: 40px;
+            display: flex;
+            justify-content: space-between;
+
+            &-left{
+                h3{
+                    color: #000;
+                    font-family: Montserrat;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    width: 280px;
+                }
+
+                p{
+                    color: #555;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; 
+                    margin-top: 10px;
+                    width: 354px;
+                }
+            }
+
+            img{
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+
+}

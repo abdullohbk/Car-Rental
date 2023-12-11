@@ -1,0 +1,21 @@
+//  for extends 
+
+%btn{
+     display: inline-flex;
+    padding: 18px 30px;
+    align-items: flex-start;
+     gap: 8px;
+     border: none;
+     border-radius: 100px;
+     background-color: #fff;
+}
+
+%btn:hover{
+      background-color: rgb(200, 199, 199);
+}
+
+%btn:active{
+        background: #299764;
+     color: #fff;
+}
+// @exstend %extandName; call to extend
