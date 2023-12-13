@@ -52,3 +52,23 @@
         height: 70px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .footer__wrapper{
+        margin-top: 550px;
+        display: flex;
+        flex-direction: column;
+        &--left{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &--right{
+            display: flex;
+            gap: 50px;
+        }
+        .li__wrapper{
+            display: flex;
+        }
+    }    
+}

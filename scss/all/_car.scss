@@ -83,3 +83,23 @@
     }
   }
 
+@media screen and (max-width: 768px) {
+  #car{
+    position: relative;
+    .car__wrapper{
+     &--right{
+      &-ellipse{
+        position: absolute;
+        top: 680px;
+        left: 25%;
+      }
+      img{
+        position: absolute;
+        top: 690px;
+        left: 20%;
+      }
+     }
+    }
+  }
+  
+}

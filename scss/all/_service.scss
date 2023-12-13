@@ -66,3 +66,23 @@
     }
 
 }
+
+@media screen and (max-width: 768px) {
+    #service{
+        .service__wrapper{
+            &--card{
+                width: 350px;
+                &-left{
+                    width: 220px;
+                    h3{
+                        width: 200px;
+                        font-size: 20px;
+                    }
+                    p{
+                        width: 220px;
+                    }
+                }
+            }
+        }
+    }    
+}
