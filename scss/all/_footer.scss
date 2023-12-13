@@ -24,7 +24,10 @@
        gap: 110px;
     
         
-        ul{
+       div{
+        display: flex;
+        gap: 110px;
+         ul{
             li{
                 color: #555;
                 font-family: Montserrat;
@@ -40,6 +43,7 @@
                 }
             }
         }
+       }
     }
 
     .border{
@@ -71,4 +75,41 @@
             display: flex;
         }
     }    
+}
+
+
+@media screen and (max-width: 390px) {
+    .footer__wrapper{
+        margin-top: 550px;
+        display: flex;
+        flex-direction: column;
+
+        b{
+            width: 130px;
+        }
+        &--left{
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        &--right{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+        }
+
+        .li__wrapper{
+
+            display: flex;
+
+        }
+
+        .footer__img{
+            position: absolute;
+            right: 0;
+        }
+    }   
+
 }

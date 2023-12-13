@@ -100,9 +100,25 @@
 }
 
 @media screen and (max-width: 768px) {
-  .input__wrapper{
+  .input__wrapper {
     position: absolute;
     left: 50px;
     top: 470px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .input__wrapper {
+    position: absolute;
+    left: 0;
+    top: 470px;
+    width: 380px;
+
+    img{
+      left: 298px;
+    }
+  }
+  .intro__input{
+    width: 360px;
   }
 }

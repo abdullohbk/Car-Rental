@@ -101,5 +101,42 @@
      }
     }
   }
-  
+}
+
+@media screen and (max-width: 390px) {
+  #car{
+    position: relative;
+    .car__wrapper{
+     &--right{
+      &-ellipse{
+        position: absolute;
+        top: 980px;
+        left: 12%;
+      }
+      img{
+        position: absolute;
+        top: 990px;
+        left: 10%;
+      }
+     }
+     &--left{
+      h1{
+        font-size: 24px;
+      }
+
+      .car__description{
+        font-size: 12px;
+      }
+      &--card--wrapper{
+        display: flex;
+        flex-direction: column;
+
+        &-card{
+          width: 350px;
+        }
+      }
+     }
+    }
+  }
+
 }

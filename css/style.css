@@ -344,6 +344,13 @@ body {
   color: #fff;
 }
 
+@media screen and (max-width: 390px) {
+  .btn, .choose__btnwrapper .choose__btn, header .nav__list--item-btn {
+    display: flex;
+    gap: 4px;
+    padding: 18px 20px;
+  }
+}
 .container {
   max-width: 1240px;
   margin: 0 auto;
@@ -415,6 +422,14 @@ header .nav .menu span {
     display: flex;
   }
 }
+@media only screen and (max-width: 390px) {
+  header .nav__list {
+    display: none;
+  }
+  header .nav .menu {
+    display: flex;
+  }
+}
 main {
   width: 100%;
   min-height: 100vh;
@@ -441,7 +456,11 @@ main {
   display: flex;
   gap: 110px;
 }
-.footer__wrapper--right ul li {
+.footer__wrapper--right div {
+  display: flex;
+  gap: 110px;
+}
+.footer__wrapper--right div ul li {
   color: #555;
   font-family: Montserrat;
   font-size: 14px;
@@ -451,7 +470,7 @@ main {
   list-style-type: none;
   margin: 12px;
 }
-.footer__wrapper--right ul li img {
+.footer__wrapper--right div ul li img {
   margin: 3px;
 }
 .footer__wrapper .border {
@@ -479,6 +498,32 @@ main {
   }
   .footer__wrapper .li__wrapper {
     display: flex;
+  }
+}
+@media screen and (max-width: 390px) {
+  .footer__wrapper {
+    margin-top: 550px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__wrapper b {
+    width: 130px;
+  }
+  .footer__wrapper--left {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__wrapper--right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer__wrapper .li__wrapper {
+    display: flex;
+  }
+  .footer__wrapper .footer__img {
+    position: absolute;
+    right: 0;
   }
 }
 .swiper {
@@ -584,6 +629,20 @@ main {
     top: 470px;
   }
 }
+@media screen and (max-width: 390px) {
+  .input__wrapper {
+    position: absolute;
+    left: 0;
+    top: 470px;
+    width: 380px;
+  }
+  .input__wrapper img {
+    left: 298px;
+  }
+  .intro__input {
+    width: 360px;
+  }
+}
 .choose__title {
   color: #000;
   text-align: center;
@@ -687,6 +746,32 @@ main {
     margin-left: 300px;
   }
 }
+@media screen and (max-width: 390px) {
+  .choose__title {
+    font-size: 27px;
+  }
+  .choose__description {
+    font-size: 12px;
+    width: 350px;
+  }
+  .choose__cardwrapper .choose__cardwrapper--top {
+    flex-wrap: wrap;
+  }
+  .choose__cardwrapper .choose__cardwrapper--top .card {
+    padding: 20px;
+    width: 300px;
+  }
+  .choose__cardwrapper .choose__cardwrapper--top .card img {
+    margin-right: 0;
+    width: 250px;
+  }
+  .choose__cardwrapper .choose__cardwrapper--top .card .description img {
+    width: 19px;
+  }
+  .btn {
+    margin-left: 100px;
+  }
+}
 #more h2 {
   color: #000;
   font-family: Montserrat;
@@ -763,6 +848,33 @@ main {
 @media screen and (max-width: 768px) {
   #service .service__wrapper--card {
     width: 350px;
+  }
+  #service .service__wrapper--card-left {
+    width: 220px;
+  }
+  #service .service__wrapper--card-left h3 {
+    width: 200px;
+    font-size: 20px;
+  }
+  #service .service__wrapper--card-left p {
+    width: 220px;
+  }
+}
+@media screen and (max-width: 390px) {
+  #service h1 {
+    font-size: 24px;
+  }
+  #service .service__description {
+    font-size: 12px;
+    width: 350px;
+  }
+  #service .service__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  #service .service__wrapper--card {
+    width: 350px;
+    margin-bottom: 50px;
   }
   #service .service__wrapper--card-left {
     width: 220px;
@@ -857,5 +969,33 @@ main {
     position: absolute;
     top: 690px;
     left: 20%;
+  }
+}
+@media screen and (max-width: 390px) {
+  #car {
+    position: relative;
+  }
+  #car .car__wrapper--right-ellipse {
+    position: absolute;
+    top: 980px;
+    left: 12%;
+  }
+  #car .car__wrapper--right img {
+    position: absolute;
+    top: 990px;
+    left: 10%;
+  }
+  #car .car__wrapper--left h1 {
+    font-size: 24px;
+  }
+  #car .car__wrapper--left .car__description {
+    font-size: 12px;
+  }
+  #car .car__wrapper--left--card--wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  #car .car__wrapper--left--card--wrapper-card {
+    width: 350px;
   }
 }/*# sourceMappingURL=style.css.map */

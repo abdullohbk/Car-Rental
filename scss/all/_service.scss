@@ -86,3 +86,34 @@
         }
     }    
 }
+
+@media screen and (max-width: 390px) {
+    #service{
+        h1{
+            font-size: 24px;
+        }
+
+        .service__description{
+            font-size: 12px;
+            width: 350px;
+        }
+        .service__wrapper{
+            display: flex;
+            flex-direction: column;
+            &--card{
+                width: 350px;
+                margin-bottom: 50px;
+                &-left{
+                    width: 220px;
+                    h3{
+                        width: 200px;
+                        font-size: 20px;
+                    }
+                    p{
+                        width: 220px;
+                    }
+                }
+            }
+        }
+    }    
+}

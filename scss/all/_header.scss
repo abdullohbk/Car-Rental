@@ -78,3 +78,16 @@ header {
     }
   }
 }
+
+@media only screen and (max-width: 390px) {
+  header {
+    .nav {
+      &__list {
+        display: none;
+      }
+        .menu{
+        display: flex;
+      }
+    }
+  }
+}

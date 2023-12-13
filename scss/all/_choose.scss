@@ -118,3 +118,35 @@
     margin-left: 300px;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .choose__title{
+    font-size: 27px;
+  }
+
+  .choose__description{
+    font-size: 12px;
+    width: 350px;
+  }
+  .choose__cardwrapper {
+    .choose__cardwrapper--top{
+        flex-wrap: wrap;
+    .card {
+        padding: 20px;
+      width: 300px;
+      img{
+        margin-right: 0;
+        width: 250px;
+      }
+      .description{
+        img{
+            width: 19px;
+        }
+      }
+    }
+    }
+  }
+  .btn{
+    margin-left: 100px;
+  }
+}
